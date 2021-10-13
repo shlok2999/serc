@@ -1,0 +1,43 @@
+.image{
+    max-width: 300px;
+    width: 100%;
+}
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-section .left {
+    flex-basis: 75%;
+    order: 1;
+}
+
+.about-section .right {
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    order: 2;
+}
+
+@media screen and (max-width: 768px){
+    .about-section {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .about-section .left {
+        order: 2;
+    }
+
+    .about-section .right {
+        order: 1;
+    }
+}
+
+.interests-section, .about-section, .publications-section {
+    margin-bottom: 2.5rem;
+}

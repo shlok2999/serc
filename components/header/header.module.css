@@ -1,0 +1,18 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo>* {
+    flex: 1 1 0px;
+}
+
+.logo img{
+    max-width: 100px;
+}
+
+.logo .heading {
+    font-size: 2rem;
+    text-align: center;
+}

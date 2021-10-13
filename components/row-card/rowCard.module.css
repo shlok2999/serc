@@ -1,0 +1,37 @@
+.root {
+    width: 100%;
+    padding: 1.25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    margin: 1.25rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .root {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.root:hover,
+.root:focus {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.author {
+    color: rgb(18, 14, 77);
+}
+
+.type {
+    font-style: italic;
+}

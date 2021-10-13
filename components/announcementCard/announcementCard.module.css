@@ -1,0 +1,30 @@
+.root {
+    display: flex;
+    margin-bottom: 1.25rem;
+}
+
+.left {
+    background: #343434;
+    color: white;
+    padding: 1.25rem;
+    width: 75px;
+    height: max-content;
+}
+
+.left .day{
+    font-size: 2rem;
+}
+
+.left .month {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.right {
+    margin-left: 1.25rem;
+}
+
+.right .title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
